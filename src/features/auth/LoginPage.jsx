@@ -77,7 +77,7 @@ export default function LoginPage() {
           {submitting ? "Checking..." : "Log in"}
         </button>
 
-        <p className="hint">Test account: <b>test / test1234</b></p>
+        <p className="hint">Test account: <b>Aygun / aygun1234</b></p>
       </form>
     </div>
   );

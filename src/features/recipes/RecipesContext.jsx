@@ -107,7 +107,7 @@ export function RecipesProvider({ children }) {
 }
 
 export function useRecipes() {
-  const ctx = useContext(RecipesContext);
+  const ctx  = useContext(RecipesContext);
   if (!ctx) throw new Error("useRecipes must be used inside RecipesProvider");
   return ctx;
 }

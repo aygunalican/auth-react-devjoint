@@ -1,10 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;1,500&display=swap');
-
+html, body {
+  min-height: 100%;
+}
 body {
   font-family: 'Playfair Display', serif;
   margin: 0;
   background: #fff0f5;
   color: #5c3a4a;
+  background-image: url("https://i.pinimg.com/1200x/d6/21/d6/d621d6388bb1e01fdd99be7323d1fa97.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
 
 .container {
@@ -94,7 +99,7 @@ h2 {
 }
 
 .recipe {
-  --frame-img: url('assets/image.png');
+
 
   position: relative;
   background: #fff;
@@ -121,7 +126,7 @@ h2 {
 }
 
 .recipe-img {
-  height: 140px;
+  height: 200px;
   background: #ffe4ec;
   border-radius: 10px 10px 0 0;
   overflow: hidden;
@@ -212,6 +217,7 @@ h2 {
   padding: 24px;
   border-radius: 14px;
   text-align: center;
+  background-image: url("");
 }
 
 .login-page h2 {
