@@ -1,0 +1,52 @@
+{
+  "users": [
+    { "id": 1, "username": "test", "password": "test1234" }
+  ],
+  "recipes": [
+    {
+      "id": 1,
+      "title": "Chocolate Chip Cookies",
+      "category": "cookie",
+      "prepTime": 25,
+      "ingredients": "flour, butter, sugar, chocolate chips, eggs, vanilla",
+      "imageUrl": "https://images.unsplash.com/photo-1499636136210-6f4ee915583e?w=400",
+      "tried": false
+    },
+    {
+      "id": 2,
+      "title": "Classic Vanilla Cake",
+      "category": "cake",
+      "prepTime": 60,
+      "ingredients": "flour, sugar, butter, eggs, vanilla extract, baking powder",
+      "imageUrl": "https://images.unsplash.com/photo-1464349095431-e9a21285b5f3?w=400",
+      "tried": true
+    },
+    {
+      "id": 3,
+      "title": "Red Velvet Cupcakes",
+      "category": "cake",
+      "prepTime": 45,
+      "ingredients": "flour, cocoa powder, buttermilk, red food coloring, cream cheese frosting",
+      "imageUrl": "https://images.unsplash.com/photo-1607478900766-efe13248b125?w=400",
+      "tried": false
+    },
+    {
+      "id": 4,
+      "title": "Oatmeal Raisin Cookies",
+      "category": "cookie",
+      "prepTime": 30,
+      "ingredients": "oats, raisins, brown sugar, cinnamon, butter",
+      "imageUrl": "https://images.unsplash.com/photo-1590080876475-0e0525174b12?w=400",
+      "tried": false
+    },
+    {
+      "id": 5,
+      "title": "Lemon Bars",
+      "category": "other",
+      "prepTime": 50,
+      "ingredients": "flour, butter, sugar, lemon juice, lemon zest, eggs",
+      "imageUrl": "https://images.unsplash.com/photo-1519676867240-f03562e64548?w=400",
+      "tried": true
+    }
+  ]
+}
