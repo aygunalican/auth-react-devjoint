@@ -32,7 +32,7 @@
       "prepTime": 45,
       "ingredients": "flour, cocoa powder, buttermilk, red food coloring, cream cheese frosting",
       "imageUrl": "https://i.pinimg.com/1200x/51/a2/c7/51a2c74ddf3a879e54b6665a6dda14f6.jpg",
-      "tried": true
+      "tried": false
     },
     {
       "id": "4",
@@ -51,7 +51,15 @@
       "ingredients": "flour, butter, sugar, lemon juice, lemon zest, eggs",
       "imageUrl": "https://i.pinimg.com/1200x/f6/f2/25/f6f225fd2620d3818947cf6a9451f324.jpg",
       "tried": false
+    },
+    {
+      "title": "napeleon",
+      "category": "cookie",
+      "prepTime": 40,
+      "ingredients": "oil flour",
+      "imageUrl": "https://i.pinimg.com/736x/c7/4c/1f/c74c1f12c00c3b5c952036a2b43a4c57.jpg",
+      "tried": false,
+      "id": "NVFDzBX6t2E"
     }
-  ],
-  "$schema": "./node_modules/json-server/schema.json"
+  ]
 }
