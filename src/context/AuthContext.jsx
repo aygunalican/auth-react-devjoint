@@ -38,7 +38,8 @@ export function AuthProvider({ children }) {
 
   async function login(username, password) {
     const res = await fetch(
-      `http://localhost:4000/users?username=${username}&password=${password}`
+    `https://auth-react-devjoint.onrender.com/users?username=${username}&password=${password}`
+
     );
     const found = await res.json();
 
